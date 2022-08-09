@@ -1,0 +1,19 @@
+1. mkdir death_star, cd death_star, touch darth_vadar.txt , touch princess_leia.txt , touch storm_trooper.txt 
+
+
+(Usmans-MBP:~ usman$ cd .
+Usmans-MBP:~ usman$ cd desktop
+Usmans-MBP:desktop usman$ cd perscholas/Classwork/
+Usmans-MBP:Classwork usman$ mkdir galaxy-far-far-away
+Usmans-MBP:Classwork usman$ cd galaxy-far-far-away/
+Usmans-MBP:galaxy-far-far-away usman$ touch commands.txt
+Usmans-MBP:galaxy-far-far-away usman$ mkdir death_star
+Usmans-MBP:galaxy-far-far-away usman$ cd death_star
+Usmans-MBP:death_star usman$ touch darth_vadar.txt
+Usmans-MBP:death_star usman$ touch princess_leia.txt
+Usmans-MBP:death_star usman$ touch storm_trooper.txt
+Usmans-MBP:death_star usman$ )
+
+2.
+
+
