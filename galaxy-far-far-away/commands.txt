@@ -1,3 +1,4 @@
+PART 1
 1. mkdir death_star, cd death_star, touch darth_vadar.txt , touch princess_leia.txt , touch storm_trooper.txt 
 
 
@@ -14,6 +15,24 @@ Usmans-MBP:death_star usman$ touch princess_leia.txt
 Usmans-MBP:death_star usman$ touch storm_trooper.txt
 Usmans-MBP:death_star usman$ )
 
-2.
+2. cd galaxy-far-far-away/ , mkdir tatooine , cd tatooine/ , touch luke.txt , touch ben_kenobi.txt
 
+(usmans-mbp:Classwork usman$ cd galaxy-far-far-away/
+usmans-mbp:galaxy-far-far-away usman$ mkdir tatooine
+usmans-mbp:galaxy-far-far-away usman$ cd tatooine/
+usmans-mbp:tatooine usman$ touch luke.txt
+usmans-mbp:tatooine usman$ touch ben_kenobi.txt)
 
+3. mkdir millenium_falcon , cd millenium_falcon/ ,touch han_solo.txt , touch chewbaca.txt
+(usmans-mbp:tatooine usman$ mkdir millenium_falcon
+usmans-mbp:tatooine usman$ cd millenium_falcon/
+usmans-mbp:millenium_falcon usman$ touch han_solo
+usmans-mbp:millenium_falcon usman$ touch han_solo.txt
+usmans-mbp:millenium_falcon usman$ touch chewbaca.txt)
+
+PART 2
+1. mv ben_kenobi.txt obiwan.txt
+
+2.  cp death_star/storm_trooper.txt tatooine/
+(usmans-mbp:galaxy-far-far-away usman$ cp death_star/storm_trooper.txt tatooine/
+usmans-mbp:galaxy-far-far-away usman$ )
