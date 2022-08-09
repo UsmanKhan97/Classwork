@@ -1,4 +1,5 @@
-PART 1
+PART 1 Set the scene
+
 1. mkdir death_star, cd death_star, touch darth_vadar.txt , touch princess_leia.txt , touch storm_trooper.txt 
 
 
@@ -30,9 +31,99 @@ usmans-mbp:millenium_falcon usman$ touch han_solo
 usmans-mbp:millenium_falcon usman$ touch han_solo.txt
 usmans-mbp:millenium_falcon usman$ touch chewbaca.txt)
 
-PART 2
+PART 2 Rename and Copy
+
 1. mv ben_kenobi.txt obiwan.txt
 
 2.  cp death_star/storm_trooper.txt tatooine/
 (usmans-mbp:galaxy-far-far-away usman$ cp death_star/storm_trooper.txt tatooine/
 usmans-mbp:galaxy-far-far-away usman$ )
+
+PartIV: move
+
+6. mv tatooine/obiwan.txt tatooine/millenium_falcon/
+(Usmans-MBP:galaxy-far-far-away usman$ mv tatooine/obiwan.txt tatooine/millenium_falcon/)
+
+   mv tatooine/luke.txt  tatooine/millenium_falcon/
+(Usmans-MBP:galaxy-far-far-away usman$ mv tatooine/luke.txt  tatooine/millenium_falcon/ )
+
+7. mv galaxy-far-far-away/tatooine/millenium_falcon/ galaxy-far-far-away/
+( Usmans-MBP:Classwork usman$ mv galaxy-far-far-away/tatooine/millenium_falcon/ galaxy-far-far-away/
+Usmans-MBP:Classwork usman )
+
+8.  mv millenium_falcon/ death_star/
+( Usmans-MBP:galaxy-far-far-away usman$ mv millenium_falcon/ death_star/ )
+
+9. mv death_star/princess_leia.txt death_star/millenium_falcon/
+( Usmans-MBP:galaxy-far-far-away usman$ mv death_star/princess_leia.txt death_star/millenium_falcon/ )
+
+Part V: remove
+
+1. rm death_star/millenium_falcon/obiwan.txt 
+( Usmans-MBP:galaxy-far-far-away usman$ rm death_star/millenium_falcon/obiwan.txt ) RIP OBIWAN  :(    T.T
+
+Part VI Moving everything
+
+1. mkdir yavin_4
+( Usmans-MBP:galaxy-far-far-away usman$ mkdir yavin_4 )
+
+2. mv death_star/millenium_falcon/ yavin_4/
+( Usmans-MBP:galaxy-far-far-away usman$ mv death_star/millenium_falcon/ yavin_4/ )
+
+3. cd yavin_4 , mkdir x_wing , ls 
+( Usmans-MBP:galaxy-far-far-away usman$ cd yavin_4
+Usmans-MBP:yavin_4 usman$ ls
+millenium_falcon
+Usmans-MBP:yavin_4 usman$ mkdir x_wing
+Usmans-MBP:yavin_4 usman$ ls
+millenium_falcon	x_wing)
+
+4. mv yavin_4/millenium_falcon/princess_leia.txt yavin_4/, mv yavin_4/millenium_falcon/luke.txt yavin_4/x_wing/
+( Usmans-MBP:galaxy-far-far-away usman$ mv yavin_4/millenium_falcon/princess_leia.txt yavin_4/
+Usmans-MBP:galaxy-far-far-away usman$ mv yavin_4/millenium_falcon/luke.txt yavin_4/x_wing/)
+
+5. Cd .. , mv galaxy-far-far-away/yavin_4/millenium_falcon/ galaxy-far-far-away/ ,  mv galaxy-far-far-away/yavin_4/x_wing/ galaxy-far-far-away/
+(Usmans-MBP:galaxy-far-far-away usman$ cd ..
+Usmans-MBP:Classwork usman$ mv galaxy-far-far-away/yavin_4/millenium_falcon/ galaxy-far-far-away/
+Usmans-MBP:Classwork usman$ mv galaxy-far-far-away/yavin_4/x_wing/ galaxy-far-far-away/)
+
+6. mkdir tie_fighter_1 , mkdir tie_fighter_2 , mkdir tie_fighter_3
+
+7. mv darth_vadar.txt tie_fighter_1  
+( Usmans-MBP:death_star usman$ mv darth_vadar.txt tie_fighter_1 )
+
+8. cp storm_trooper.txt tie_fighter_3 , cp storm_trooper.txt tie_fighter_2
+( Usmans-MBP:death_star usman$ cp storm_trooper.txt tie_fighter_2
+Usmans-MBP:death_star usman$ cp storm_trooper.txt tie_fighter_3)
+
+9. Cd .. , mv galaxy-far-far-away/death_star/tie_fighter_1 galaxy-far-far-away/ , mv galaxy-far-far-away/death_star/tie_fighter_2 galaxy-far-far-away/ , mv galaxy-far-far-away/death_star/tie_fighter_3 galaxy-far-far-away/ 
+
+(Usmans-MBP:Classwork usman$ mv galaxy-far-far-away/death_star/tie_fighter_1 galaxy-far-far-away/
+Usmans-MBP:Classwork usman$ galaxy-far-far-away/death_star/tie_fighter_2 galaxy-far-far-away/
+-bash: galaxy-far-far-away/death_star/tie_fighter_2: is a directory
+Usmans-MBP:Classwork usman$ mv galaxy-far-far-away/death_star/tie_fighter_2 galaxy-far-far-away/
+Usmans-MBP:Classwork usman$ mv galaxy-far-far-away/death_star/tie_fighter_3/ galaxy-far-far-away/)
+
+Part VII remove directories and everything they contain
+
+1. cd galaxy-far-far-away/ , rm -r tie_fighter_2 , rm -r tie_fighter_3
+(Usmans-MBP:galaxy-far-far-away usman$ rm -r tie_fighter_2
+Usmans-MBP:galaxy-far-far-away usman$ rm -r tie_fighter_3)
+
+Part VIII:
+
+1. cd x_wing/ , touch the_force.txt
+(Usmans-MBP:galaxy-far-far-away usman$ cd x_wing/
+Usmans-MBP:x_wing usman$ touch the_force.txt )
+
+2. rm -r death_star
+( Usmans-MBP:galaxy-far-far-away usman$ rm -r death_star )
+
+3. mv millenium_falcon/ yavin_4/ , mv x_wing/ yavin_4/. 
+( Usmans-MBP:galaxy-far-far-away usman$ mv x_wing/ yavin_4/
+Usmans-MBP:galaxy-far-far-away usman$ mv millenium_falcon/ yavin_4/)
+
+
+
+
+ 
