@@ -1,0 +1,22 @@
+1.)
+const number = 0;
+if  (number  > 0) {
+    console.log("Number is positive");
+}
+else if (number == 0){
+    console.log("Number is zero");
+}
+else {
+    console.log("Number is negative");
+}
+
+2.
+Let age = 15
+
+If (age. <= 18) {
+console.log("you're in")
+}
+else
+{
+console.log(" go away ")
+}

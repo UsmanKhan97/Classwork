@@ -1,0 +1,36 @@
+Exercise 1
+let x = 2
+let y =6
+let z = x + y
+console.log(z)
+Output: 8
+
+Exercise 2
+let x = 5;
+let y = 10;
+let z = 4;
+let k = 9;
+let output = x  * y + z^x - k  / z
+console.log(output)
+Output: 52
+
+Exercise 3
+const arr1 = [1, 2, 3, 4, 5];
+const arr2 = [6, 7, 8, 9, 10];
+const average = arr1.reduce((a, b) => a + b, 0) / arr1.length;
+const average2 = arr2.reduce((a, b) => a + b, 0) / arr2.length;
+const arr3 = arr1 + arr2;
+const sumarr = [1, 2, 3, 4, 56, 7, 8, 9, 10]
+const average3 = sumarr.reduce((a, b) => a + b, 0) / sumarr.length;
+console.log(arr3);
+console.log(average);
+console.log(average2);
+console.log(average3);
+
+Output:
+1,2,3,4,56,7,8,9,10
+3
+8
+11.11111111111111
+
+
