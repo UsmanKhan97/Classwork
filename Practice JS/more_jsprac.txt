@@ -20,3 +20,24 @@ else
 {
 console.log(" go away ")
 }
+
+1. 
+let letter = "a"
+
+switch (letter) {
+    case "a":
+    case "e":
+    case "I":
+    Case "o":
+    Case "u":
+       console.log(letter + "is a vowel");
+       Break;
+    Default:
+        console.log(letter + "is not a vowel")
+        Break;
+}
+
+2.
+Let number = 3;
+oddEven = number % 2 === 0 ? "It's even" : "Its odd";
+Console.log(oddEven);
