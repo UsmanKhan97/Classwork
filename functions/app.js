@@ -1,17 +1,14 @@
-// // function declaration / definition
-// function sayHello(){
-//   console.log('Hello!')
-// }
-
-// function expression
-//const sayHi = function(){
-//    console.log('Hi!')
-// }
-
-// exercise one
-function computeArea(width,  hieght){
-    console.log("The area of  a rectangle with a width of " + width + "and a height of " + hieght + "is " + (width*hieght) + " square units." )
+for (number = 1; number <= 100; number++) {
+    if (number % 3 == 0 && number % 5 == 0) {
+        console.log('FizzBuzz');
+	}
+    else if (number % 3 == 0) {
+        console.log("Fizz");	
+	}
+    else if (number % 5 == 0) {
+        console.log("Buzz");
+	}
+    else {
+    	console.log(number);
+	} 
 }
-
-//exercise 2
-const

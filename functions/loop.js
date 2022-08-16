@@ -41,3 +41,19 @@
 //   } 
 //console.log(output)
 
+//exercise 3
+//let integer = 0;
+//while (integer < 20){
+//    if (integer  %2 == 0){
+//        console.log(integer*3)      
+//    }integer++
+//}
+
+//exercise 4
+//let  j = 1;
+//while (j < 20){
+//    if (j % 2 != 0 && j %  3 != 0){
+//        console.log(j)
+//    } j++
+//}
+
