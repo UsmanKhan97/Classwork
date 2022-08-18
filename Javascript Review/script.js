@@ -60,5 +60,4 @@ console.log(48 == '48'); */
 //     console.log('Nope your too young')
 // }
 
-// github
 
