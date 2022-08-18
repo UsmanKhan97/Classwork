@@ -39,9 +39,25 @@ console.log(a + b == c);
 console.log(a * a == d);
 console.log(48 == '48'); */
 
-// D The Farm
-let animal
-animal = 'cow'
+// // D The Farm
+// let animal
+// animal = 'cow'
+// let moo = 'moo'
+// animal <= moo
+// if (animal == moo) {
+//     console.log(moo);
+// }else{
+//     console.log("Hey you're not a cow");
+// }
+// console.log(animal);
 
+// // E Drivers Ed
+// const age = 16
+
+// if (age >= 16){
+//     console.log('Heres the keys')
+// }else{
+//     console.log('Nope your too young')
+// }
 
 
