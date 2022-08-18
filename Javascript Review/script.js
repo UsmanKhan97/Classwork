@@ -9,4 +9,39 @@ c. Defining it by giving it a class//subclass/object
 5. psuedo code is a false code or a representation of a code that could be read in layman terms and its great practice for coding
 6. I thinking it should be 20% thinking and 80% coding */
 
-// B. Strings
+// // B. Strings
+// let firstVariable
+// firstVariable = ('hello world')
+// firstVariable = 10
+// let secondVariable = firstVariable
+// secondVariable = ('Blah Blah')
+// // First variable is 10
+// let yourname
+// yourname = ('Usman')
+// console.log('Hello, My name is' ,yourname);
+
+/* // C Booleans
+const a=4;
+const b=53;
+const c=57;
+const d=16;
+const e='kevin';
+
+console.log(a < b);
+console.log(c > d);
+console.log('Name' == 'Name');
+// FOR THE NEXT TWO, USE ONLY && OR ||
+console.log(true || false);
+console.log(false && false && false && false && false || true);
+console.log(false == false);
+console.log(e == 'kevin');
+console.log(a + b == c);
+console.log(a * a == d);
+console.log(48 == '48'); */
+
+// D The Farm
+let animal
+animal = 'cow'
+
+
+
