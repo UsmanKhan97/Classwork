@@ -54,7 +54,7 @@ maya.meow()
 george.vaccinated()
 maya.cute() */
 
-class Governor {
+/*class Governor {
     static staticProperty = 'I will help you all (jk) ';
     static staticMethod() {
       return 'I Resign';
@@ -65,5 +65,5 @@ class Governor {
   }
   
   console.log(Governor.staticProperty);
-  console.log(Governor.staticMethod());
+  console.log(Governor.staticMethod()); */
   
